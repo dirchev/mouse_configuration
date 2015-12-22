@@ -1,0 +1,19 @@
+# Press F5 with the aim button
+"xte 'key F5'"
+  b:12
+
+# Workspace DOWN
+"xte 'keydown Control_L' 'keydown Alt_L' 'key Down' 'keyup Control_L' 'keyup Alt_L'"
+  b:11
+
+# Workspace UP
+"xte 'keydown Control_L' 'keydown Alt_L' 'key Up' 'keyup Control_L' 'keyup Alt_L'"
+  b:10
+
+# Move Window One Workspace DOWN
+"xte 'keydown Control_L' 'keydown Shift_L' 'key Down' 'keyup Control_L' 'keyup Shift_L'"
+  Control + b:11
+
+# Move Window One Workspace UP
+"xte 'keydown Control_L' 'keydown Shift_L' 'key Up' 'keyup Control_L' 'keyup Shift_L'"
+ Control + b:10
